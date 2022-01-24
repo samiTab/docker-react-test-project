@@ -20,8 +20,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: multi-gh
-          environment_name: Multigh-env
+          application_name: docker-react-test-project
+          environment_name: Dockerreacttestproject-env
           existing_bucket_name: elasticbeanstalk-us-east-1-564934115017
           region: us-east-1
           version_label: ${{ github.sha }}
